@@ -6,38 +6,48 @@ This project was built as part of the roadmap.sh GitHub User Activity project to
 
 ## Project URL
 
+\## Project URL
+
+
+
 https://roadmap.sh/projects/github-user-activity
+
+
+
+\[GitHub User Activity Project](https://roadmap.sh/projects/github-user-activity)
+
+
 
 ## Features
 
-- Accepts a GitHub username as a command-line argument
-- Fetches recent GitHub activity using the GitHub Events API
-- Displays repository activity in the terminal
-- Supports multiple GitHub event types
-- Handles invalid GitHub usernames
-- Handles GitHub API connection errors
-- Handles users with no recent activity
-- Uses only Python built-in libraries
+* Accepts a GitHub username as a command-line argument
+* Fetches recent GitHub activity using the GitHub Events API
+* Displays repository activity in the terminal
+* Supports multiple GitHub event types
+* Handles invalid GitHub usernames
+* Handles GitHub API connection errors
+* Handles users with no recent activity
+* Uses only Python built-in libraries
 
 ## Technologies Used
 
-- Python
-- GitHub REST API
-- JSON
-- Python urllib
-- Command-line interface
+* Python
+* GitHub REST API
+* JSON
+* Python urllib
+* Command-line interface
 
 ## Project Structure
 
 github-user-activity/
-github_activity.py
+github\_activity.py
 README.md
 
 ## Requirements
 
-- Python 3.x
-- Internet connection
-- A GitHub username
+* Python 3.x
+* Internet connection
+* A GitHub username
 
 No external Python libraries are required.
 
@@ -45,32 +55,32 @@ No external Python libraries are required.
 
 Open Command Prompt and navigate to the project folder:
 
-cd C:\github-user-activity
+cd C:\\github-user-activity
 
 Run the program:
 
-python github_activity.py yerramsettisairamanakoushik85-arch
+python github\_activity.py yerramsettisairamanakoushik85-arch
 
 ## Example Output
 
-GitHub Activity
-----------------
-- Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
-- Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
-- Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
-- Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
-- Public in yerramsettisairamanakoushik85-arch/shadowfox
+## GitHub Activity
+
+* Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
+* Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
+* Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
+* Pushed commits to yerramsettisairamanakoushik85-arch/shadowfox
+* Public in yerramsettisairamanakoushik85-arch/shadowfox
 
 ## Supported Activity Types
 
-- Push events
-- Issue events
-- Pull request events
-- Star events
-- Create events
-- Fork events
-- Delete events
-- Release events
+* Push events
+* Issue events
+* Pull request events
+* Star events
+* Create events
+* Fork events
+* Delete events
+* Release events
 
 ## Error Handling
 
@@ -100,14 +110,14 @@ Error: Unable to connect to GitHub.
 
 Through this project, I practiced:
 
-- Working with REST APIs
-- Sending HTTP requests in Python
-- Processing JSON responses
-- Using command-line arguments
-- Handling API errors
-- Working with Python functions
-- Building a simple CLI application
-- Using GitHub API data in a Python project
+* Working with REST APIs
+* Sending HTTP requests in Python
+* Processing JSON responses
+* Using command-line arguments
+* Handling API errors
+* Working with Python functions
+* Building a simple CLI application
+* Using GitHub API data in a Python project
 
 ## API Endpoint
 
@@ -118,3 +128,4 @@ https://api.github.com/users/username/events
 Koushik
 
 GitHub: https://github.com/yerramsettisairamanakoushik85-arch
+
